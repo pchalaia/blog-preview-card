@@ -11,10 +11,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -28,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./screenshot.jpg](./screenshot.jpg)
+[![./screenshot.jpg](https://github.com/pchalaia/blog-preview-card/blob/main/assets/images/screenshot.jpg)]
 
 ### Links
 
