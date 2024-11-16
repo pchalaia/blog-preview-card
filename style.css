@@ -73,6 +73,10 @@ h1 {
     font-weight: 750;
 }
 
+.card:hover .title {
+    color: #F4D04E;
+}
+
 .autor {
     display: flex;
     flex-direction: row;
