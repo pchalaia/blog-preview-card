@@ -8,27 +8,49 @@
   
   <title>Frontend Mentor | Blog preview card</title>
 
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
   </style>
 </head>
 <body>
 
-  Learning
+  <div class="bg">
 
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="card">
+      <div class="image-container">
+      </div>
+      <div class="content">
+        <div class="category figtree-text">
+          <p>Learning</p>
+        </div>
+        <div class="date figtree-text"> 
+          <span>Published 21 Dec 2023</span>
+        </div>
+        <div class="title figtree-text"> 
+          <h1>HTML & CSS foundations</h1>
+        </div>
+        <div class="description figtree-text"> 
+          <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        </div>
+      </div>
+      <div class="autor">
+        <div class="">
+          <img class="autor-image" src="./assets/images/image-avatar.webp" alt="autor avatar">
+        </div>
+        <div class="autor-name figtree-text">
+          <p>Greg Hooper</p>
+        </div>
+      </div>
+    </div>
   </div>
+  
+ 
 </body>
 </html>
